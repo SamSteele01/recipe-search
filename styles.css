@@ -1,0 +1,27 @@
+header {
+  /*height: 100px;*/
+  padding: 50px 0 30px 0;
+}
+
+ul.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+li {
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  flex-basis: 24%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+a {
+  font-family: sans-serif;
+  font-size: 20px;
+}
